@@ -1,0 +1,29 @@
+/* Remove default list styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20368F; /* Dark Cornflower Blue */
+  }
+  
+  /* Style the list items */
+  nav ul li {
+    float: left;
+  }
+  
+  /* Style the links inside the list items */
+  nav ul li a {
+    display: block;
+    color: #EBEBEB; /* Bright Gray */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  nav ul li a:hover {
+    background-color: #829CD0; /* Vista Blue */
+    color: #000B4F; /* Cetacean Blue */
+  }
+  
